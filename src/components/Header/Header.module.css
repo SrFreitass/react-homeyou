@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 2rem 0rem;
+
+
+    background: var(--white);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}   
+
+.logoIcon {
+    box-sizing: content-box;
+    background-color: var(--gray-600);
+    color: var(--white-100);
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+
+.logo strong {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--gray-600);
+    font-size: 1.2rem;
+}
+
+.iconMenu {
+    display: none;
+}
+
+.navItems {
+    gap: 3rem;
+}
+
+
+.navIcons {
+    gap: 2rem;
+}
+
+
+
+
+
+
+@media (max-width: 739px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+   
+    nav {
+        display: none;
+    }
+    .iconMenu {
+        display: flex;
+    }
+
+    .menu + .iconMenu {
+        display: flex;
+
+        position: fixed;
+
+        margin-left: 85%;
+        
+    }
+
+    .menu {
+        animation: 0.5s navbar;
+
+        background: rgba(38, 38, 38, 0.8);
+        border: 1px solid rgba(115, 115, 115, 0.5);
+        backdrop-filter: blur(4px);
+
+        position: fixed;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 70vw;
+        height: 101vh;
+
+        margin-left: 30%;
+        margin-top: -3%;
+
+    }
+
+    .menu .navIcons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .menu .navItems {
+        margin-top: 15rem;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .menu .navItems li a {
+        font-size: 2rem;
+        font-weight: 500;
+        color: var(--white);
+    }
+
+    .menu .navIcons li  {
+        font-weight: 500;
+        color: var(--white);
+    }
+
+    @keyframes navbar {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-0%);
+        }
+    }
+}

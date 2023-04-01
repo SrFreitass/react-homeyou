@@ -1,0 +1,56 @@
+:root {
+    --white: #FFFFFF;
+    --white-100: #F9F9F9;
+    --gray-200: #797979;
+    --gray-600:#272727;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background: var(--white-100);
+}
+
+@media (max-width: 1240px) and (min-width: 1050px) {
+    html {
+        font-size: 85%;
+    }
+    
+}
+
+@media (max-width: 1049px) and (min-width: 980px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+
+@media (max-width: 979px) and (min-width: 740px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 739px) and (min-width: 460px){
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 459px) and (min-width: 400px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 399px) {
+    html {
+        font-size: 60%;
+    }
+}
