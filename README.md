@@ -1,3 +1,4 @@
+
 # 🏠 React-Homeyou EN
 
 This is a project built using React as the library for building the user interface and Vite as the development and build tool. The design was created by Iuri Silva.
@@ -94,3 +95,6 @@ Para construir uma versão otimizada do projeto para produção, você pode roda
 Este comando construirá uma versão otimizada do projeto na pasta `dist`, pronta para ser hospedada em um servidor web.
 
 Aceito feedbacks construtivos, fique à vontade para me enviar sugestões e melhorias. 🙌
+=======
+
+>>>>>>> dc177b10b4f0c5de7334984c854f08f86cdb562a
