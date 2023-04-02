@@ -14,7 +14,7 @@ export function Home() {
 
                 <div className={styles.homeButtons}>
                 <button>Entre em contato</button>
-                    <a href="">Mais sobre nós</a>
+                    <a href="#">Mais sobre nós</a>
                 </div>
             </div>
 

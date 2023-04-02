@@ -2,7 +2,6 @@ import styles from './Header.module.css'
 import { HeartStraight, House, List, X, MagnifyingGlass, User } from 'phosphor-react'
 import { useState } from 'react'
 
-
 export function Header() {
         const [isOpen, setIsOpen] = useState(false)
         const toggleMenu = () => {
@@ -17,16 +16,16 @@ export function Header() {
             </div>
             <nav className={isOpen ? [styles.menu] : [styles.active]}>
             <ul className={styles.navItems}>
-                <li><a href="">Início</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
             <ul className={styles.navIcons}>
                 <li>
-                    <a href=""><User size={20}/></a>        
+                    <a href="#"><User size={20}/></a>        
                 </li>
                 <li>
-                    <a href=""><HeartStraight size={20}/></a>
+                    <a href="#"><HeartStraight size={20}/></a>
                 </li>
 
                 <li>
