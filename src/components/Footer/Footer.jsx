@@ -11,23 +11,23 @@ export function Footer() {
 
             <ul>
               <h4>Produtos</h4>
-              <li>Mobilia</li>
-              <li>Segurança</li>
-              <li>Design Interior</li>
+              <li><a href='#'>Mobilia</a></li>
+              <li><a href='#'>Segurança</a></li>
+              <li><a href='#'>Design Interior</a></li>
             </ul>
 
             <ul>
                 <h4>Mais Informações</h4>
-                <li>Contrato</li>
-                <li>Sobre nós</li>
-                <li>Termos e Condições</li>
+                <li><a href='#'>Contrato</a></li>
+                <li><a href='#'>Sobre nós</a></li>
+                <li><a href='#'>Termos e Condições</a></li>
             </ul>
 
             <ul>
                 <h4>Rede Sociais</h4>
-                <li>Pinterest</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
+                <li><a href='#'>Pinterest</a></li>
+                <li><a href='#'>Facebook</a></li>
+                <li><a href='#'>Instagram</a></li>
             </ul>
         </footer>
     )

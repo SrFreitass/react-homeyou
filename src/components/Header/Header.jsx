@@ -23,15 +23,14 @@ export function Header() {
             </ul>
             <ul className={styles.navIcons}>
                 <li>
-                    <User size={20}/>
+                    <a href=""><User size={20}/></a>        
+                </li>
+                <li>
+                    <a href=""><HeartStraight size={20}/></a>
                 </li>
 
                 <li>
-                    <HeartStraight size={20}/>
-                </li>
-
-                <li>
-                    <MagnifyingGlass size={20}/>
+                    <a href='#'><MagnifyingGlass size={20}/></a>
                 </li>
             </ul>
             </nav>

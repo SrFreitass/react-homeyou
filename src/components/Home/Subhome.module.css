@@ -3,14 +3,12 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--white);
-
     margin-top: 7rem;
 }
 
 .sectionSubHome > img {
     width: 30.43rem;
     height: 28.56rem;
-
     box-shadow: -3.125rem -3.125rem var(--gray-600);
 }
 
@@ -19,7 +17,6 @@
     padding: 1.5rem 2rem;
     background-color: var(--gray-600);
     color: var(--white);
-
     display: flex;
     flex-direction: column;
     gap: 1.2rem;

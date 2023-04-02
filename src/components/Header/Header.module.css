@@ -1,10 +1,7 @@
 header {
     display: flex;
     justify-content: space-around;
-
     padding: 2rem 0rem;
-
-
     background: var(--white);
 }
 
@@ -79,33 +76,23 @@ nav ul li a {
 
     .menu + .iconMenu {
         display: flex;
-
         position: fixed;
-
         margin-left: 85%;
-        
     }
 
     .menu {
         animation: 0.5s navbar;
-
         background: rgba(38, 38, 38, 0.8);
         border: 1px solid rgba(115, 115, 115, 0.5);
         backdrop-filter: blur(4px);
-
         position: fixed;
-
-
         display: flex;
         flex-direction: column;
         align-items: center;
-
         width: 70vw;
         height: 101vh;
-
         margin-left: 30%;
         margin-top: -3%;
-
     }
 
     .menu .navIcons {
@@ -117,8 +104,6 @@ nav ul li a {
 
     .menu .navItems {
         margin-top: 15rem;
-
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -131,7 +116,7 @@ nav ul li a {
         color: var(--white);
     }
 
-    .menu .navIcons li  {
+    .menu .navIcons a  {
         font-weight: 500;
         color: var(--white);
     }
