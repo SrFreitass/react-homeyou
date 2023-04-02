@@ -14,7 +14,7 @@ export function Header() {
                 <House className={styles.logoIcon} size={24}/>
                 <strong>HOMEYOU</strong>
             </div>
-            <nav className={isOpen ? [styles.menu] : [styles.active]}>
+            <nav className={isOpen ? [styles.menu] : ''}>
             <ul className={styles.navItems}>
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Galeria</a></li>
